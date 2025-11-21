@@ -1,35 +1,35 @@
 
-Arun reads lot of story books and he keeps all the story books piled as a single stack. He wants to write a program to keep the order of the books in the pile. The program must implement the following functionalities.
-Add a book to the top of the pile when 1 is followed by the name of the book.
-Remove a book from the top of the pile when-1 is given as the input (provided the pile has atleast one book).
-Print the name of the book on the top of the pile when 2 is given as the input (provided the pile has atleast one book).
-The program must exit when 0 is given as the input.
-Boundary Condition(s):
-The maximum number of story books in the pile will be 100.
-The name of the book will not exceed 100 characters.
-Example Input/Output 1:
-Input:
-1 The Arrival
-1 The Borrowers
-1 The Cat in the Hat
-2
-1
-2
-1 Curious George
-2
-1
-2
--1
-2
--1
-2
--1
-1 Freight Train
-2
-0
-Output:
-The Cat in the Hat
-The Borrowers
+// Arun reads lot of story books and he keeps all the story books piled as a single stack. He wants to write a program to keep the order of the books in the pile. The program must implement the following functionalities.
+// Add a book to the top of the pile when 1 is followed by the name of the book.
+// Remove a book from the top of the pile when-1 is given as the input (provided the pile has atleast one book).
+// Print the name of the book on the top of the pile when 2 is given as the input (provided the pile has atleast one book).
+// The program must exit when 0 is given as the input.
+// Boundary Condition(s):
+// The maximum number of story books in the pile will be 100.
+// The name of the book will not exceed 100 characters.
+// Example Input/Output 1:
+// Input:
+// 1 The Arrival
+// 1 The Borrowers
+// 1 The Cat in the Hat
+// 2
+// 1
+// 2
+// 1 Curious George
+// 2
+// 1
+// 2
+// -1
+// 2
+// -1
+// 2
+// -1
+// 1 Freight Train
+// 2
+// 0
+// Output:
+// The Cat in the Hat
+// The Borrowers
 // Curious George
 // The Borrowers
 // The Arrival
